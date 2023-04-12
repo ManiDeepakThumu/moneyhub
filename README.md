@@ -10,8 +10,8 @@ How might you make this service more secure?
  ```To control access to API resources, you must carefully and comprehensively identify all related users and devices. This typically requires client-side applications to include a token in the API call so that the service can validate the client.```
  
 How would you make this solution scale to millions of records?
- ```Vertical partition. Adding more power (CPU, RAM, etc.) to the database server. It has a hard limit. Horizontal partition by adding more database servers. Adding a caching layer to offload read requests.
- Now we can modularize the functions into different services. The architecture becomes service-oriented / microservice``` 
+ Vertical partition. Adding more power (CPU, RAM, etc.) to the database server. It has a hard limit. Horizontal partition by adding more database servers. Adding a caching layer to offload read requests.
+ Now we can modularize the functions into different services. The architecture becomes service-oriented / microservice
 
 What else would you have liked to improve given more time?
  ```writing test cases using jest, creating api documentation using swagger.```
